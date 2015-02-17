@@ -19,7 +19,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   [
-    ["gnuplot", "~> 2.6.2"],
+    ["gnuplot", "~> 2.6"],
   ].each do |args|
     spec.add_dependency(*args)
   end
